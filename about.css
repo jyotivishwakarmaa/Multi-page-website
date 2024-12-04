@@ -1,0 +1,365 @@
+body {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero1 .navbar nav {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: 30px;
+  color: white;
+  display: none;
+}
+
+#click {
+  display: none;
+}
+
+.hero1 {
+  height: 85vh;
+  background: url(/imgBG.jpg) no-repeat center center/cover;
+}
+
+.hero1 .logo {
+  display: flex;
+}
+.hero1 .logo img {
+  width: 45px;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar span {
+  color: rgb(247, 125, 3);
+}
+
+.navbar h1 {
+  color: rgb(247, 125, 3);
+  font-weight: 800px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 60px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar ul li a:hover {
+  color: rgb(247, 125, 3);
+}
+
+.aboutFP h4 {
+  text-align: center;
+  color: rgb(247, 125, 3);
+  margin-top: 130px;
+  letter-spacing: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.aboutFP p {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ABsec_pg {
+  height: 130vh;
+  background-color: honeydew;
+}
+.ABsec_pg img {
+  height: 300px;
+  width: 300px;
+}
+
+.data {
+  margin-top: 90px;
+}
+.data h1 {
+  font-size: 50px;
+  margin-left: 55px;
+  margin-top: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.data span {
+  color: rgb(247, 125, 3);
+}
+
+.data2 {
+  background-color: rgb(254, 245, 228);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.data2 ul {
+  list-style: none;
+}
+.data2 ul li {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgb(255, 132, 0);
+}
+.data2 ul p {
+  color: dimgray;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.data3 {
+  margin-top: 15px;
+  background-color: rgb(254, 245, 228);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.data3 ul {
+  list-style: none;
+}
+.data3 ul li {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: rgb(255, 132, 0);
+}
+.data3 ul p {
+  color: dimgray;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.ThirdPG {
+  height: 60vh;
+  background: url(1.jpg) no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+.sale h1 {
+  font-size: 50px;
+  margin-left: 60px;
+}
+.sale h1 span {
+  color: rgb(247, 125, 3);
+}
+.sale p {
+  margin-left: 60px;
+}
+
+.FourthPG {
+  height: 130vh;
+  margin-top: 100px;
+}
+.FourthPG h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.FourthPG span {
+  color: rgb(255, 132, 0);
+}
+.FourthPG p {
+  text-align: center;
+}
+
+.contnr {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.contnr img {
+  height: 300px;
+  width: 250px;
+}
+
+.card h2 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card h4 {
+  text-align: center;
+  color: dimgray;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.card .ic {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.card .ic a {
+  color: rgb(255, 132, 0);
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.card .ic a:hover {
+  color: cadetblue;
+}
+
+/* footer section */
+.footer {
+  background-color: black;
+  height: 500px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  color: white;
+  text-align: left;
+  padding: 4px;
+}
+
+.footer-content p {
+  margin-top: 40px;
+}
+
+.footer-content h2 {
+  margin-top: 70px;
+}
+
+.footer-content1 h2 {
+  margin-top: 70px;
+}
+
+.footer-content1 .pg ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+.pg li a {
+  color: rgb(247, 125, 3);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pg li a:hover {
+  color: white;
+}
+
+.footer-content1 input {
+  font-size: 15px;
+  background-color: rgb(200, 212, 208);
+  padding: 10px;
+  font-weight: 700;
+}
+
+.bt {
+  background-color: rgb(42, 42, 42);
+  margin-left: 5px;
+  padding: 10px;
+  color: rgb(247, 125, 3);
+}
+
+.bt:hover {
+  color: white;
+  background-color: rgb(247, 125, 3);
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+}
+
+.icon {
+  text-decoration: none;
+  font-size: 20px;
+  color: beige;
+  margin-right: 20px;
+}
+
+.icons {
+  margin-top: 20px;
+}
+
+.icon {
+  text-decoration: none;
+  font-size: 25px;
+  color: beige;
+  margin-right: 20px;
+}
+
+.icon:hover {
+  color: darkslateblue;
+}
+
+.end {
+  background-color: rgb(118, 79, 2);
+  height: 45px;
+}
+
+.end p {
+  color: bisque;
+  background-color: rgb(105, 105, 115);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    display: block;
+  }
+  .hero1 .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(79, 151, 79, 0.7);
+    display: none;
+  }
+  #click:checked ~ .hero1 .navbar ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 425px) {
+  .data2 {
+    flex-direction: column;
+  }
+  .data3 {
+    flex-direction: column;
+  }
+  .ThirdPG {
+    height: auto;
+  }
+  .contnr {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .FourthPG {
+    height: auto;
+  }
+  .footer {
+    height: auto;
+  }
+}/*# sourceMappingURL=about.css.map */

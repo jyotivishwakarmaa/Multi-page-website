@@ -1,0 +1,556 @@
+body {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  background: url(hero-bg.jpg) no-repeat center center / cover;
+}
+.hero .navbar nav {
+  display: flex;
+  align-items: center;
+}
+label {
+  font-size: 30px;
+  color: white;
+  display: none;
+}
+#click {
+  display: none;
+}
+.hero .logo {
+  display: flex;
+
+  img {
+    width: 45px;
+  }
+}
+.navbar {
+  position: sticky;
+  top: 0px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  // background-color: black;
+
+  span {
+    color: rgb(247, 125, 3);
+  }
+}
+.navbar h1 {
+  color: rgb(247, 125, 3);
+  font-weight: 800px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar ul {
+  display: flex;
+  gap: 60px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+
+  li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  li a:hover {
+    color: rgb(247, 125, 3);
+  }
+}
+
+.frontPG {
+  h4 {
+    text-align: center;
+    color: rgb(247, 125, 3);
+    margin-top: 100px;
+    letter-spacing: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  p {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+}
+.btn1 {
+  background-color: rgb(235, 133, 8);
+  color: white;
+  margin-left: 470px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  text-decoration: none;
+}
+.btn1:hover {
+  background-color: rgb(170, 11, 90);
+}
+.btn2 {
+  color: white;
+  background-color: rgb(235, 133, 8);
+  margin-left: 90px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  text-decoration: none;
+}
+.btn2:hover {
+  background-color: rgb(170, 11, 90);
+}
+.secPG {
+  height: 50vh;
+  background-color: rgb(245, 241, 234);
+  justify-content: space-around;
+  margin-top: 95px;
+  display: flex;
+  ul {
+    list-style: none;
+    margin-top: 50px;
+  }
+  li {
+    margin-left: 27px;
+    font-size: 50px;
+    color: rgb(255, 132, 0);
+  }
+}
+.thirdPG {
+  height: 110vh;
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  span {
+    color: rgb(247, 125, 3);
+  }
+  p {
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    height: 60px;
+    justify-content: space-around;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    padding: 2px;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .btnn {
+    color: white;
+    background-color: rgb(235, 133, 8);
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 45px;
+  }
+  .btnn:hover {
+    background-color: rgb(170, 11, 90);
+  }
+}
+.icon {
+  display: flex;
+  gap: 40px;
+  color: white;
+  text-decoration: none;
+}
+.icon a:hover {
+  color: rgb(247, 125, 3);
+}
+.fourPG {
+  height: 110vh;
+  background-color: whitesmoke;
+  margin-top: 110px;
+  display: flex;
+}
+.content1 {
+  img {
+    height: 400px;
+    width: 500px;
+    margin-top: 60px;
+  }
+}
+.content2 {
+  margin-left: 25px;
+  h1 {
+    font-size: 50px;
+    margin-top: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  h1 span {
+    color: rgb(247, 125, 3);
+  }
+}
+.container1 {
+  display: flex;
+  margin-top: 40px;
+
+  .box {
+    border: 2px solid orange;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+    p {
+      font-size: 18px;
+      font-family: sans-serif;
+      font-weight: 500;
+    }
+  }
+}
+.btnn {
+  color: white;
+  background-color: rgb(235, 133, 8);
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 95px;
+}
+.btnn:hover {
+  background-color: rgb(170, 11, 90);
+}
+.fifthPG {
+  height: 120vh;
+  margin-top: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data1 {
+  p {
+    margin-top: 60px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  span {
+    color: rgb(247, 125, 3);
+  }
+}
+.data2 {
+  img {
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-top: 40px;
+  }
+}
+.sixPG {
+  height: 60vh;
+  background: url(1.jpg) no-repeat center center / cover;
+  margin-top: 80px;
+}
+.sale {
+  h1 {
+    font-size: 50px;
+    margin-left: 60px;
+
+    span {
+      color: rgb(247, 125, 3);
+    }
+  }
+  p {
+    margin-left: 60px;
+  }
+}
+.sevenPG {
+  height: 130vh;
+  margin-top: 40px;
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+
+    span {
+      color: rgb(247, 125, 3);
+    }
+  }
+
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  p1 {
+    font-size: 15px;
+    color: dimgray;
+  }
+}
+.container {
+  height: 500px;
+  margin-top: 50px;
+
+  .card1 {
+    img {
+      height: 200px;
+      width: 280px;
+      margin-left: 2px;
+    }
+  }
+}
+.card1 {
+  background-color: rgb(245, 245, 245);
+  width: 285px;
+  h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .btnn1 {
+    color: orangered;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+}
+.iconn {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+/* footer section */
+.footer {
+  background-color: black;
+  height: 500px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  color: white;
+  text-align: left;
+  padding: 4px;
+}
+.footer-content p {
+  margin-top: 40px;
+}
+.footer-content h2 {
+  margin-top: 70px;
+}
+
+.footer-content1 h2 {
+  margin-top: 70px;
+}
+.footer-content1 .pg ul {
+  list-style: none;
+  font-size: 15px;
+}
+.pg li a {
+  color: rgb(247, 125, 3);
+  text-decoration: none;
+  font-size: 20px;
+}
+.pg li a:hover {
+  color: white;
+}
+.footer-content1 input {
+  font-size: 15px;
+  background-color: rgb(200, 212, 208);
+  padding: 10px;
+  font-weight: 700;
+}
+.bt {
+  background-color: rgb(42, 42, 42);
+  margin-left: 5px;
+  padding: 10px;
+  color: rgb(247, 125, 3);
+}
+.bt:hover {
+  color: white;
+  background-color: rgb(247, 125, 3);
+}
+.icons {
+  margin-top: 20px;
+  display: flex;
+}
+.icon {
+  text-decoration: none;
+  font-size: 20px;
+  color: beige;
+  margin-right: 20px;
+}
+
+.icons {
+  margin-top: 20px;
+}
+.icon {
+  text-decoration: none;
+  font-size: 25px;
+  color: beige;
+  margin-right: 20px;
+}
+.icon:hover {
+  color: darkslateblue;
+}
+
+.end {
+  background-color: rgb(118, 79, 2);
+  height: 45px;
+}
+.end p {
+  color: bisque;
+  background-color: rgb(105, 105, 115);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+// media querry
+// tablet view
+@media screen and (max-width: 769px) {
+  .content1 img {
+    width: 100%;
+  }
+  .container .card1 img {
+    width: 100%;
+  }
+  .navbar ul {
+    gap: 20px;
+  }
+  label {
+    display: block;
+  }
+  .hero .navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(79, 151, 79, 0.7);
+    display: none;
+  }
+  #click:checked ~ .hero .navbar ul {
+    display: block;
+  }
+}
+// mobile view
+@media screen and (max-width: 425px) {
+  .btn1 {
+    margin-left: 0px;
+  }
+  .thirdPG .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .fourPG {
+    height: auto;
+    flex-direction: column;
+  }
+  .thirdPG {
+    height: auto;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+  .sixPG {
+    height: auto;
+  }
+  .sevenPG {
+    height: auto;
+  }
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .data2 img {
+    width: 100%;
+  }
+  .frontPG h4 {
+    margin-top: 50px;
+  }
+  .secPG {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .frontPG p {
+    margin-bottom: 0px;
+  }
+  .thirdPG img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+  .container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content1 img {
+    margin-top: 0px;
+  }
+  .card1{
+    width: auto;
+  }
+}
